@@ -7,12 +7,22 @@ Bem-vindo à segunda versão do meu projeto de portfólio pessoal. Este projeto 
 - **Design Moderno**: Utiliza as últimas tendências de design web para uma aparência elegante e profissional.
 - **Layout Responsivo**: Garante uma ótima experiência em dispositivos de todos os tamanhos, de telefones a desktops.
 - **Elementos Interativos**: Engaja visitantes com componentes interativos.
+- 
 
-## Stacks
+## Stacks 
 
-- **Vite**: Uma ferramenta de construção rápida e moderna para projetos JavaScript.
-- **React**: Usado para construir a interface do usuário (assumindo a partir da estrutura do projeto e padrões comuns).
-- **Node.js**: Necessário para dependências de desenvolvimento e para executar o projeto localmente.
+Este projeto foi construído com as seguintes tecnologias:
+
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" alt="Vite"/>
+</p>
+
+
 
 ## Estrutura do Projeto
 
