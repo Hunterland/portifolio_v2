@@ -59,8 +59,9 @@ Contribuições são o que fazem a comunidade de código aberto um lugar tão in
 
 ## Contato
 
-Seu Nome - [linkedin/alanbarroncas](https://www.linkedin.com/in/alan-barroncas/)
+Alan Barroncas - [linkedin](https://www.linkedin.com/in/alan-barroncas/)
 
-Link do Projeto: [https://github.com/Hunterland/portifolio_v2](https://github.com/seu_usuario/seu_nome_de_projeto)
-Link do Figma: [portifolio_v2](https://www.figma.com/file/ItVe2wXLNC2OCV26HRl67b/Portif%C3%B3lio2.0?type=design&node-id=10%3A2&mode=design&t=AV3e5kh590K8ylaU-1)
+Link do Projeto: [portifolio_v2](https://github.com/Hunterland/portifolio_v2)
+
+Design no Figma: [portifolio_v2](https://www.figma.com/file/ItVe2wXLNC2OCV26HRl67b/Portif%C3%B3lio2.0?type=design&node-id=10%3A2&mode=design&t=AV3e5kh590K8ylaU-1)
 
