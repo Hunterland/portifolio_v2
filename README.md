@@ -7,7 +7,7 @@ Bem-vindo à segunda versão do meu projeto de portfólio pessoal. Este projeto 
 - **Design Moderno**: Utiliza as últimas tendências de design web para uma aparência elegante e profissional.
 - **Layout Responsivo**: Garante uma ótima experiência em dispositivos de todos os tamanhos, de telefones a desktops.
 - **Elementos Interativos**: Engaja visitantes com componentes interativos.
-- 
+  
 
 ## Stacks 
 
