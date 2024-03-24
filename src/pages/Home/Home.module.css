@@ -1,0 +1,85 @@
+/* css da page home */
+
+.home {
+  width: 100%;
+  min-height: 90vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home img {
+  height: 500px;
+}
+
+.img_home {
+  margin-right: -97px;
+}
+
+/* adicionando flutuação */
+/* .img-home.floating {
+    animation: floatAnimation 4s infinite ease-in-out;
+  }
+  
+  @keyframes floatAnimation {
+    0%, 100% {
+      transform: translatey(20px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  } */
+
+.home p {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.home span {
+  color: var(--olive);
+}
+
+.btn {
+  width: 180px;
+  height: 50px;
+  font-size: 1.125rem;
+  font-weight: bold;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* botão */
+.btn_charcoal {
+  background-color: var(--primary);
+}
+
+.btn_charcoal:hover {
+  background-color: #a3bc3d;
+}
+
+/* link do botão */
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* aula 11 extra 01 responsividade */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .home p {
+    font-size: 2rem;
+  }
+  .home img {
+    max-width: 100%;
+    height: auto;
+    padding-inline: 2.5rem;
+  }
+}

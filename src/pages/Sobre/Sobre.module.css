@@ -1,0 +1,115 @@
+.sobre {
+  width: 100%;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-block: 40px; /* responsividade extra 02 */
+}
+
+.bio {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.avatar {
+  width: 300px; /* Largura inicial */
+  height: 300px; /* Altura inicial */
+  border: 3px solid #A3BC3D;
+  border-radius: 50%; /* Adiciona borda arredondada para criar um efeito de cï¿½rculo */
+  object-fit: cover; /* Garante que a imagem cubra o espaï¿½o disponï¿½vel sem distorcer */
+  margin: -2px 5%;
+  transition: transform 0.3s ease; /* Efeito de transiï¿½ï¿½o suave para hover (opcional) */
+}
+
+.avatar:hover {
+  transform: scale(1.05); /* Efeito de zoom leve ao passar o mouse (opcional) */
+}
+
+.textos h2,
+p {
+  margin-bottom: 1rem;
+}
+
+.techs {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon1, .icon2, .icon3, .icon4, .icon5, .icon6, .icon7, .icon8 {
+  transition: transform .2s ease-in-out; /* Aplicar transiÃ§Ã£o a todos os Ã­cones */
+}
+
+.icon1:hover, .icon2:hover, .icon3:hover, .icon4:hover, .icon5:hover, .icon6:hover, .icon7:hover, .icon8:hover {
+  transform: scale(1.5); /* Aumentar o tamanho apenas no hover */
+}
+
+
+
+.icones {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icones img {
+  height: 50px;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .bio {
+    flex-direction: column;
+    padding-inline: 20px;
+    gap: 1rem;
+  }
+
+  .avatar {
+    width: 50%; /* Ajusta a largura no tablet para ser proporcional ao container */
+    max-width: 250px; /* Mï¿½xima largura para evitar que a imagem fique muito grande */
+    height: auto; /* Altura automï¿½tica para manter a proporï¿½ï¿½o */
+  }
+
+  .bio img {
+    max-width: 100%; /* Imagens dentro de .bio ajustam ao mï¿½ximo do container */
+  }
+}
+
+/* Mobile */
+@media (max-width: 485px) {
+  .icones {
+    gap: 0.5rem;
+  }
+
+  .icones img {
+    height: 40px;
+  }
+}
+
+
+/* Mobile - pequenas correÃ§Ãµes */
+@media (max-width: 480px) {
+  .bio {
+    gap: 0.5rem;
+    text-align: center; /* Centralizar o texto para uma leitura mais fÃ¡cil */
+  }
+
+  .avatar {
+    width: 60%; /* Permitir que a imagem ocupe mais espaÃ§o */
+    max-width: none; /* Remover a restriÃ§Ã£o de largura mÃ¡xima */
+  }
+
+  .icones img {
+    width: 20%; /* Ajustar a largura dos Ã­cones baseada na porcentagem */
+    max-width: 60px; /* Garantir que os Ã­cones nÃ£o fiquem muito grandes */
+    min-width: 40px; /* Garantir que os Ã­cones nÃ£o fiquem muito pequenos */
+  }
+}
+

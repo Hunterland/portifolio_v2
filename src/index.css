@@ -1,0 +1,21 @@
+/* variáveis globais */
+
+:root {
+  font-family: "Heebo", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --primary: #2d3f57;;
+  --white: #fefefe;
+  --olive: #A3BC3D;
+  --black: #111;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
