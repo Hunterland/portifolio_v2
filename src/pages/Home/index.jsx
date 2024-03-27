@@ -16,7 +16,12 @@ function Home() {
           Fullstack Developer
         </p>
         <button className={`${styles.btn} ${styles.btn_charcoal}`}>
-          <a href={resumePDF} download="Alan_Barroncas_CV5.pdf">
+          <a
+            href={resumePDF}
+            download="Alan_Barroncas_CV5.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Download CV
           </a>
         </button>
