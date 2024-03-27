@@ -1,8 +1,77 @@
-# React + Vite
+# Portfólio v2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo à segunda versão do meu projeto de portfólio pessoal. Este projeto demonstra minhas habilidades em desenvolvimento web e meus projetos.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Design Moderno**: Utiliza as últimas tendências de design web para uma aparência elegante e profissional.
+- **Layout Responsivo**: Garante uma ótima experiência em dispositivos de todos os tamanhos, de telefones a desktops.
+- **Elementos Interativos**: Engaja visitantes com componentes interativos.
+  
+
+## Stacks 
+
+Este projeto foi construído com as seguintes tecnologias:
+
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" alt="Vite"/>
+</p>
+
+
+
+## Estrutura do Projeto
+
+- `src`: Contém o código-fonte do projeto.
+- `public`: Armazena arquivos estáticos, como imagens e o arquivo `index.html`.
+- `node_modules`: Dependências instaladas via NPM (não incluídas no repositório).
+- `vite.config.js`: Arquivo de configuração para o Vite.
+- `package.json` & `package-lock.json`: Configuração do NPM e arquivo de bloqueio de dependência.
+
+## Iniciando
+
+Para obter uma cópia local em funcionamento, siga estes passos simples.
+
+### Pré-requisitos
+
+- Node.js instalado em sua máquina.
+- Um gerenciador de pacotes como NPM ou Yarn.
+
+### Instalação
+
+1. Clone o repositório:
+   ```sh
+   git clone <url-do-repositório>
+   ```
+2. Instale os pacotes NPM:
+   ```sh
+   npm install
+   ```
+3. Inicie o servidor de desenvolvimento:
+   ```sh
+   npm run dev
+   ```
+
+## Contribuindo
+
+Contribuições são o que fazem a comunidade de código aberto um lugar tão incrível para aprender, inspirar e criar. Qualquer contribuição que você fizer é **muito apreciada**.
+
+1. Faça o Fork do Projeto
+2. Crie seu Branch de Recurso (`git checkout -b feature/RecursoIncrivel`)
+3. Faça Commit das suas Mudanças (`git commit -m 'Adicionar algum RecursoIncrivel'`)
+4. Faça Push para o Branch (`git push origin feature/RecursoIncrivel`)
+5. Abra um Pull Request
+
+
+## Contato
+
+Alan Barroncas - [linkedin](https://www.linkedin.com/in/alan-barroncas/)
+
+URL [portifolio_v2](https://portifolio-v2-hunterland-project.vercel.app/)
+
+Design no Figma: [portifolio_v2](https://www.figma.com/file/ItVe2wXLNC2OCV26HRl67b/Portif%C3%B3lio2.0?type=design&node-id=10%3A2&mode=design&t=AV3e5kh590K8ylaU-1)
+
