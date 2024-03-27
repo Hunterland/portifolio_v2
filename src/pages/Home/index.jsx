@@ -2,7 +2,7 @@
 import styles from "./Home.module.css";
 
 // arquivos para download //
-import resumePDF from "../../assets/Alan_Barroncas_CV4.pdf";
+import resumePDF from "../../assets/Alan_Barroncas_CV5.pdf";
 // Substitua pelo caminho correto do seu currÃ­culo em PDF
 
 function Home() {
@@ -16,7 +16,7 @@ function Home() {
           Fullstack Developer
         </p>
         <button className={`${styles.btn} ${styles.btn_charcoal}`}>
-          <a href={resumePDF} download="Alan_Barroncas_CV4.pdf">
+          <a href={resumePDF} download="Alan_Barroncas_CV5.pdf">
             Download CV
           </a>
         </button>
