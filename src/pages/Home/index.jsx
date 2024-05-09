@@ -13,7 +13,7 @@ function Home() {
           Olá, sou <br />
           <span>Alan Barroncas</span>
           <br />
-          Fullstack Developer
+          Frontend Developer
         </p>
         <button className={`${styles.btn} ${styles.btn_charcoal}`}>
           <a
