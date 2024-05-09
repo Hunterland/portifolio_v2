@@ -22,24 +22,25 @@ function Sobre() {
         <img src={avatar} alt="Alan Barroncas" className={styles.avatar} />
         <div className={styles.textos}>
           <h2>Sobre Mim</h2>
-          <p>
-            Como entusiasta da tecnologia e artista na cultura hip hop,
-            dedico-me a fundir minha paixão pela inovação digital com a rica
-            expressão artística do Amazonas.
-          </p>
-          <br />
-          <p>
-            Atualmente aprimorando minhas habilidades e graduando em Análise e
-            Desenvolvimento de Sistemas, Pai de duas princesas e um príncipe.
-            Busco desafios que me permitam crescer profissionalmente e
-            pessoalmente.
-          </p>
-          <br />
-          <p>
-            Minha abordagem é holística, valorizando a integração entre
-            tecnologia, criatividade e impacto social. Vamos conectar-nos e
-            explorar como podemos fazer a diferença juntos.
-          </p>
+            <p>
+              Como entusiasta da tecnologia, tenho um grande interesse na inovação digital.
+              Atualmente, estou aprimorando minhas habilidades enquanto curso Análise e Desenvolvimento de Sistemas.
+              Profissionalmente, acumulo 2 anos de experiência prática como Desenvolvedor Frontend | Fullstack,
+              com competências tanto em desenvolvimento de software quanto em análise de dados.
+            </p>
+            <br />
+            <p>
+              Além disso, tive uma breve incursão na área de Suporte,
+              o que contribuiu para o desenvolvimento da minha capacidade de compreensão
+              e resolução de problemas cotidianos. Tenho habilidades de adaptação,
+              comunicação eficaz e trabalho em equipe bem desenvolvidas.
+            </p>
+            <br />
+            <p>
+              Estou em busca de desafios que me permitam crescer tanto profissional quanto pessoalmente,
+              e adoto uma abordagem holística que valoriza a integração entre tecnologia,
+              criatividade e impacto social. Estou aberto a conexões e oportunidades para explorar como podemos fazer a diferença juntos.
+            </p>
         </div>
       </div>
 

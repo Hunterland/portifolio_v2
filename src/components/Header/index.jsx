@@ -1,5 +1,5 @@
 // importando estilos //
-// estruturar HTML e CSS //
+// estrutura HTML e CSS //
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import styles from "./Header.module.css";
