@@ -25,7 +25,7 @@ function Sobre() {
             <p>
               Como entusiasta da tecnologia, tenho um grande interesse na inovação digital.
               Atualmente, estou aprimorando minhas habilidades enquanto curso Análise e Desenvolvimento de Sistemas.
-              Profissionalmente, acumulo 2 anos de experiência prática como Desenvolvedor Frontend | Fullstack,
+              Profissionalmente tenho 2 anos de experiência prática como Desenvolvedor Frontend | Fullstack,
               com competências tanto em desenvolvimento de software quanto em análise de dados.
             </p>
             <br />
