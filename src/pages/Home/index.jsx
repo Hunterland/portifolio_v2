@@ -3,7 +3,7 @@ import styles from "./Home.module.css";
 
 // arquivos para download //
 import resumePDF from "../../assets/Alan_Barroncas_CV5.pdf";
-// Substitua pelo caminho correto do seu currÃ­culo em PDF
+// Substitua pelo caminho correto do seu currículo em PDF
 
 function Home() {
   return (
