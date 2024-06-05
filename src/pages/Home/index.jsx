@@ -1,9 +1,5 @@
-// importando componentes
 import styles from "./Home.module.css";
-
-// arquivos para download //
 import resumePDF from "../../assets/Alan_Barroncas_CV5.pdf";
-// Substitua pelo caminho correto do seu currículo em PDF
 
 function Home() {
   return (
@@ -15,15 +11,15 @@ function Home() {
           <br />
           Frontend Developer
         </p>
-        <button className={`${styles.btn} ${styles.btn_charcoal}`}>
-          <a
-            href={resumePDF}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Download CV
-          </a>
-        </button>
+        <a
+          href={resumePDF}
+          className={`${styles.btn} ${styles.btn_charcoal}`}
+          download="Alan_Barroncas_CV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Download CV
+        </a>
       </div>
       <figure>
         <img
