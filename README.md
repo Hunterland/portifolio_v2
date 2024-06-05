@@ -1,5 +1,7 @@
 # Portfólio v2
 
+![portifolio_v2](/public/home.gif)
+
 Bem-vindo à segunda versão do meu projeto de portfólio pessoal. Este projeto demonstra minhas habilidades em desenvolvimento web e meus projetos.
 
 ## Funcionalidades
