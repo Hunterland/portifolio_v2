@@ -3,7 +3,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import styles from "./Header.module.css";
-import logo from "../../assets/Logo_Hunter_v2.svg";
+import logo from "../../assets/logo_AB.svg";
 import { Link } from "react-router-dom";
 import { useState } from 'react'
 
