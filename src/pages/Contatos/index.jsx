@@ -1,5 +1,5 @@
 import styles from "./Contatos.module.css";
-import { BsInstagram, BsGithub, BsLinkedin, BsTelegram } from "react-icons/bs";
+import { BsGithub, BsLinkedin, BsTelegram } from "react-icons/bs";
 
 function Contatos() {
 return (
@@ -10,14 +10,7 @@ return (
         <h3>Entre em contato</h3>
         <p>Para que possamos conversar mais sobre.</p>
         <div className={styles.icones}>
-          <a
-            href="https://instagram.com/hunterland95"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <BsInstagram className={styles.icone} />
-          </a>
-
+      
           <a
             href="https://tttttt.me/hunterland95"
             target="_blank"
@@ -36,7 +29,7 @@ return (
           </a>
 
           <a
-            href="https://www.linkedin.com/in/alan-barroncas/"
+            href="https://www.linkedin.com/in/alan-barroncas95/"
             target="_blank"
             rel="noopener noreferrer"
           >
