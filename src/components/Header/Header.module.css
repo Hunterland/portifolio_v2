@@ -35,9 +35,11 @@ nav a {
   color: #fff;
   padding-right: 1.5rem;
   font-size: 1.125rem;
+  font-weight: 700;
   transition: 0.3s ease-in-out;
   /* Adicionado position: relative para posição do pseudo-elemento absoluto */
   position: relative;
+  box-shadow: #000000 25%;
 }
 
 .header a:hover {

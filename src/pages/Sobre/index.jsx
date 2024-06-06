@@ -23,23 +23,23 @@ function Sobre() {
         <div className={styles.textos}>
           <h2>Sobre Mim</h2>
             <p>
-              Como entusiasta da tecnologia, tenho um grande interesse na inovação digital.
-              Atualmente, estou aprimorando minhas habilidades enquanto curso Análise e Desenvolvimento de Sistemas.
-              Profissionalmente tenho 2 anos de experiência prática como Desenvolvedor Frontend | Fullstack,
-              com competências tanto em desenvolvimento de software quanto em análise de dados.
+              Apaixonado por inovação digital e sempre em busca de novos desafios,
+              atualmente estou aprimorando minhas habilidades no curso de Análise e Desenvolvimento de Sistemas.
+              Com 2 anos de experiência prática como Desenvolvedor Frontend | Fullstack,
+              possuo competências tanto em desenvolvimento web quanto em software.
             </p>
             <br />
             <p>
               Além disso, tive uma breve incursão na área de Suporte,
               o que contribuiu para o desenvolvimento da minha capacidade de compreensão
               e resolução de problemas cotidianos. Tenho habilidades de adaptação,
-              comunicação eficaz e trabalho em equipe bem desenvolvidas.
+              comunicação eficaz e trabalho em equipe.
             </p>
             <br />
             <p>
-              Estou em busca de desafios que me permitam crescer tanto profissional quanto pessoalmente,
-              e adoto uma abordagem holística que valoriza a integração entre tecnologia,
-              criatividade e impacto social. Estou aberto a conexões e oportunidades para explorar como podemos fazer a diferença juntos.
+              Estou sempre buscando oportunidades que me permitam crescer tanto profissional quanto pessoalmente.
+              Adoto uma abordagem holística que valoriza a integração entre tecnologia, criatividade e impacto social.
+              Estou aberto a conexões e oportunidades para colaborar em projetos que fazem a diferença.
             </p>
         </div>
       </div>
