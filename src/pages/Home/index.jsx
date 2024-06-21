@@ -14,11 +14,10 @@ function Home() {
         <a
           href={resumePDF}
           className={`${styles.btn} ${styles.btn_charcoal}`}
-          download="Alan_Barroncas_CV.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Download CV
+          Download CV👨‍💻
         </a>
       </div>
       <figure>
