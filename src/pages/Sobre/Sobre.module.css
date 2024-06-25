@@ -16,11 +16,11 @@
 }
 
 .avatar {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  margin-bottom: 20px; /* Efeito de transiï¿½ï¿½o suave para hover (opcional) */
+  width: 300px; /* Largura inicial */
+  height: 300px; /* Altura inicial */
+  object-fit: cover; /* Garante que a imagem cubra o espaï¿½o disponï¿½vel sem distorcer */
+  margin: -2px 5%;
+  transition: transform 0.3s ease; /* Efeito de transiï¿½ï¿½o suave para hover (opcional) */
 }
 
 .avatar:hover {

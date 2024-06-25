@@ -4,7 +4,7 @@ import React from "react";
 // import css//
 import styles from "./Sobre.module.css";
 // import avatar //
-import avatar from "./images/";
+import avatar from "./images/avatar_2.png";
 
 // icones //
 import figma from "./images/icon-figma.svg";
