@@ -15,41 +15,68 @@
   margin-bottom: 1.5rem;
 }
 
-.avatar {
-  width: 300px; /* Largura inicial */
-  height: 300px; /* Altura inicial */
-  object-fit: cover; /* Garante que a imagem cubra o espaï¿½o disponï¿½vel sem distorcer */
-  margin: -2px 5%;
-  transition: transform 0.3s ease; /* Efeito de transiï¿½ï¿½o suave para hover (opcional) */
-}
-
-.avatar:hover {
-  transform: scale(1.05); /* Efeito de zoom leve ao passar o mouse (opcional) */
-}
-
 .textSection h2,
 p {
   margin-bottom: 1rem;
   margin-right: 7rem;
 }
 
-.techs {
-  width: 50%;
+.avatar {
+  width: 300px; /* Largura inicial */
+  height: 300px; /* Altura inicial */
+  object-fit: cover; /* Garante que a imagem cubra o espaço disponível sem distorcer */
+  margin: -2px 5%;
+  transition: transform 0.3s ease; /* Efeito de transição suave para hover (opcional) */
+}
+
+.avatar:hover {
+  transform: scale(1.05); /* Efeito de zoom leve ao passar o mouse (opcional) */
+}
+
+.skillsSection {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.hardskills,
+.softskills {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  text-align: center;
 }
 
-.icon1, .icon2, .icon3, .icon4, .icon5, .icon6, .icon7, .icon8 {
-  transition: transform .2s ease-in-out; /* Aplicar transiÃ§Ã£o a todos os Ã­cones */
+ul {
+  padding: 0;
 }
 
-.icon1:hover, .icon2:hover, .icon3:hover, .icon4:hover, .icon5:hover, .icon6:hover, .icon7:hover, .icon8:hover {
+li {
+  margin: 5px 0;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4,
+.icon5,
+.icon6,
+.icon7,
+.icon8 {
+  transition: transform 0.2s ease-in-out; /* Aplicar transição a todos os ícones */
+}
+
+.icon1:hover,
+.icon2:hover,
+.icon3:hover,
+.icon4:hover,
+.icon5:hover,
+.icon6:hover,
+.icon7:hover,
+.icon8:hover {
   transform: scale(1.5); /* Aumentar o tamanho apenas no hover */
 }
-
-
 
 .icones {
   width: 100%;
@@ -72,12 +99,12 @@ p {
 
   .avatar {
     width: 50%; /* Ajusta a largura no tablet para ser proporcional ao container */
-    max-width: 250px; /* Mï¿½xima largura para evitar que a imagem fique muito grande */
-    height: auto; /* Altura automï¿½tica para manter a proporï¿½ï¿½o */
+    max-width: 250px; /* Máxima largura para evitar que a imagem fique muito grande */
+    height: auto; /* Altura automática para manter a proporção */
   }
 
   .profileSection img {
-    max-width: 100%; /* Imagens dentro de .bio ajustam ao mï¿½ximo do container */
+    max-width: 100%; /* Imagens dentro de .bio ajustam ao máximo do container */
   }
 }
 
@@ -92,23 +119,21 @@ p {
   }
 }
 
-
-/* Mobile - pequenas correÃ§Ãµes */
+/* Mobile - pequenas correções */
 @media (max-width: 480px) {
   .profileSection {
     gap: 0.5rem;
-    text-align: center; /* Centralizar o texto para uma leitura mais fÃ¡cil */
+    text-align: center; /* Centralizar o texto para uma leitura mais fácil */
   }
 
   .avatar {
-    width: 60%; /* Permitir que a imagem ocupe mais espaÃ§o */
-    max-width: none; /* Remover a restriÃ§Ã£o de largura mÃ¡xima */
+    width: 60%; /* Permitir que a imagem ocupe mais espaço */
+    max-width: none; /* Remover a restrição de largura máxima */
   }
 
   .icones img {
-    width: 20%; /* Ajustar a largura dos Ã­cones baseada na porcentagem */
-    max-width: 60px; /* Garantir que os Ã­cones nÃ£o fiquem muito grandes */
-    min-width: 40px; /* Garantir que os Ã­cones nÃ£o fiquem muito pequenos */
+    width: 20%; /* Ajustar a largura dos ícones baseada na porcentagem */
+    max-width: 60px; /* Garantir que os ícones não fiquem muito grandes */
+    min-width: 40px; /* Garantir que os ícones não fiquem muito pequenos */
   }
 }
-

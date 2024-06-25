@@ -1,12 +1,9 @@
-// importe components //
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-// import css//
 import styles from "./Sobre.module.css";
-// import avatar //
 import avatar from "./images/avatar_2.png";
 
-// icones //
+// Icons
 import figma from "./images/icon-figma.svg";
 import typescript from "./images/icon-ts.svg";
 import js from "./images/icon-js.svg";
@@ -49,7 +46,6 @@ function Sobre() {
       </div>
 
       {/* Área de Hardskills */}
-
       <div className={styles.skillsSection}>
         <div className={styles.hardskills}>
           <h3>Hardskills</h3>
@@ -60,7 +56,7 @@ function Sobre() {
             <img className={styles.icon4} src={git} alt="Git" />
             <img className={styles.icon5} src={nodejs} alt="NodeJs" />
             <img className={styles.icon6} src={angular} alt="Angular" />
-            <img className={styles.icon7} src={react} alt="Reacr" />
+            <img className={styles.icon7} src={react} alt="React" />
             <img className={styles.icon8} src={sql} alt="Sql" />
           </div>
         </div>
