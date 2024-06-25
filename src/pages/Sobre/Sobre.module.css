@@ -8,7 +8,7 @@
   padding-block: 40px; /* responsividade extra 02 */
 }
 
-.bio {
+.profileSection {
   display: flex;
   align-items: center;
   gap: 3rem;
@@ -16,20 +16,18 @@
 }
 
 .avatar {
-  width: 300px; /* Largura inicial */
-  height: 300px; /* Altura inicial */
-  border: 3px solid #A3BC3D;
-  border-radius: 50%; /* Adiciona borda arredondada para criar um efeito de cï¿½rculo */
-  object-fit: cover; /* Garante que a imagem cubra o espaï¿½o disponï¿½vel sem distorcer */
-  margin: -2px 5%;
-  transition: transform 0.3s ease; /* Efeito de transiï¿½ï¿½o suave para hover (opcional) */
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px; /* Efeito de transiï¿½ï¿½o suave para hover (opcional) */
 }
 
 .avatar:hover {
   transform: scale(1.05); /* Efeito de zoom leve ao passar o mouse (opcional) */
 }
 
-.textos h2,
+.textSection h2,
 p {
   margin-bottom: 1rem;
   margin-right: 7rem;
@@ -66,7 +64,7 @@ p {
 
 /* Tablet */
 @media (max-width: 768px) {
-  .bio {
+  .profileSection {
     flex-direction: column;
     padding-inline: 20px;
     gap: 1rem;
@@ -78,7 +76,7 @@ p {
     height: auto; /* Altura automï¿½tica para manter a proporï¿½ï¿½o */
   }
 
-  .bio img {
+  .profileSection img {
     max-width: 100%; /* Imagens dentro de .bio ajustam ao mï¿½ximo do container */
   }
 }
@@ -97,7 +95,7 @@ p {
 
 /* Mobile - pequenas correÃ§Ãµes */
 @media (max-width: 480px) {
-  .bio {
+  .profileSection {
     gap: 0.5rem;
     text-align: center; /* Centralizar o texto para uma leitura mais fÃ¡cil */
   }
