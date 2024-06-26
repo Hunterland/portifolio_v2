@@ -76,6 +76,6 @@ Você pode encontrar o design do projeto no Figma [aqui](https://www.figma.com/d
 
 ## Contato
 
-Desenvolvido por [Alan Barroncas](https://linkedin.com/in/alan-barroncas) 🚀
+Desenvolvido por [Alan Barroncas](https://linkedin.com/in/alan-barroncas95) 🚀
 
 
