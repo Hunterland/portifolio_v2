@@ -1,4 +1,4 @@
-# Portfólio v2
+# Portfólio Dev v3.0
 
 ![portifolio_v2](/public/home.gif)
 
@@ -71,7 +71,7 @@ Contribuições são o que fazem a comunidade de código aberto um lugar tão in
 
 ## Design
 
-Você pode encontrar o design do projeto no Figma [aqui](https://www.figma.com/file/ItVe2wXLNC2OCV26HRl67b/Portif%C3%B3lio2.0?type=design&node-id=10%3A2&mode=design&t=AV3e5kh590K8ylaU-1).
+Você pode encontrar o design do projeto no Figma [aqui](https://www.figma.com/design/Hqzm3uEp2mZSfWnMtQzZVO/portifolio_v3?node-id=10-2&t=OjMXotTGNcuzSw0z-1).
 
 
 ## Contato
