@@ -24,6 +24,8 @@ function Sobre() {
         <img src={avatar} alt="Alan Barroncas" className={styles.avatar} />
         <div className={styles.textSection}>
           <h2>Sobre Mim</h2>
+          {/* Linha para divisão do título e parágrafo */}
+          <div className={styles.dottedLine}></div>
           <p>
             Com 2 anos de experiência prática como Desenvolvedor Frontend /
             Fullstack, possuo competências tanto em desenvolvimento web quanto
@@ -47,7 +49,7 @@ function Sobre() {
         </div>
       </div>
 
-      {/* Área de Hardskills e Softskills */}
+      {/* Ýrea de Hardskills e Softskills */}
       <div className={styles.skillsSection}>
         <div className={styles.hardskills}>
           <h3>Hardskills</h3>
@@ -73,9 +75,10 @@ function Sobre() {
         <div className={styles.softskills}>
           <h3>Softskills</h3>
           <ul>
-            <li>Adaptabilidade</li>
-            <li>Comunicação</li>
-            <li>Trabalho em equipe</li>
+            <li>Adaptável</li>
+            <li>Flexível</li>
+            <li>Comunicativo</li>
+            <li>Trabalho em Equipe</li>
           </ul>
         </div>
       </div>
