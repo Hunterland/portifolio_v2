@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-block: 40px; /* responsividade extra 02 */
+  padding-block: 40px;
 }
 
 .profileSection {
@@ -15,79 +15,48 @@
   margin-bottom: 1.5rem;
 }
 
-.textSection h2,
-p {
-  margin-bottom: 1rem;
-  margin-right: 7rem;
-}
-
 .avatar {
-  width: 300px; /* Largura inicial */
-  height: 300px; /* Altura inicial */
-  object-fit: cover; /* Garante que a imagem cubra o espaço disponível sem distorcer */
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
   margin: -2px 5%;
-  transition: transform 0.3s ease; /* Efeito de transição suave para hover (opcional) */
+  transition: transform 0.3s ease;
 }
 
 .avatar:hover {
-  transform: scale(1.05); /* Efeito de zoom leve ao passar o mouse (opcional) */
+  transform: scale(1.05);
+}
+
+.textSection {
+  max-width: 600px;
+}
+
+.textSection h2 {
+  margin-bottom: 1rem;
+}
+
+.textSection p {
+  margin-bottom: 1rem;
 }
 
 .skillsSection {
   display: flex;
   justify-content: space-around;
-  width: 76%;
+  width: 100%;
   margin-top: 20px;
 }
 
-.hardskills,
-.softskills {
-  gap: 1rem;
+.hardskills, .softskills {
+  display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-ul {
-  padding: 0;
-}
-
-li {
-  margin: 5px 0;
-}
-
-.icon1,
-.icon2,
-.icon3,
-.icon4,
-.icon5,
-.icon6,
-.icon7,
-.icon8,
-.icon9,
-.icon10,
-.icon11,
-.icon12 {
-  transition: transform 0.2s ease-in-out; /* Aplicar transição a todos os ícones */
-}
-
-.icon1:hover,
-.icon2:hover,
-.icon3:hover,
-.icon4:hover,
-.icon5:hover,
-.icon6:hover,
-.icon7:hover,
-.icon8:hover {
-  transform: scale(1.5); /* Aumentar o tamanho apenas no hover */
-}
-
 .icones {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .row {
@@ -97,8 +66,22 @@ li {
   margin: 0.5rem 0;
 }
 
-.icones img {
+.icon {
   height: 50px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
 }
 
 /* Tablet */
@@ -110,13 +93,13 @@ li {
   }
 
   .avatar {
-    width: 50%; /* Ajusta a largura no tablet para ser proporcional ao container */
-    max-width: 250px; /* Máxima largura para evitar que a imagem fique muito grande */
-    height: auto; /* Altura automática para manter a proporção */
+    width: 50%;
+    max-width: 250px;
+    height: auto;
   }
 
-  .profileSection img {
-    max-width: 100%; /* Imagens dentro de .bio ajustam ao máximo do container */
+  .textSection {
+    text-align: center;
   }
 }
 
@@ -126,7 +109,7 @@ li {
     gap: 0.5rem;
   }
 
-  .icones img {
+  .icon {
     height: 40px;
   }
 }
@@ -135,17 +118,17 @@ li {
 @media (max-width: 480px) {
   .profileSection {
     gap: 0.5rem;
-    text-align: center; /* Centralizar o texto para uma leitura mais fácil */
+    text-align: center;
   }
 
   .avatar {
-    width: 60%; /* Permitir que a imagem ocupe mais espaço */
-    max-width: none; /* Remover a restrição de largura máxima */
+    width: 60%;
+    max-width: none;
   }
 
-  .icones img {
-    width: 20%; /* Ajustar a largura dos ícones baseada na porcentagem */
-    max-width: 60px; /* Garantir que os ícones não fiquem muito grandes */
-    min-width: 40px; /* Garantir que os ícones não fiquem muito pequenos */
+  .icon {
+    width: 20%;
+    max-width: 60px;
+    min-width: 40px;
   }
 }
