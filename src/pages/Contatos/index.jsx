@@ -1,5 +1,5 @@
 import styles from "./Contatos.module.css";
-import { BsGithub, BsLinkedin, BsTelegram } from "react-icons/bs";
+import { BsEnvelope , BsLinkedin, BsWhatsapp } from "react-icons/bs";
 
 function Contatos() {
 return (
@@ -12,20 +12,20 @@ return (
         <div className={styles.icones}>
       
           <a
-            href="https://tttttt.me/hunterland95"
+            href="https://wa.me/5592993818973"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <BsTelegram className={styles.icone} />
+            <BsWhatsapp className={styles.icone} />
           </a>
           
 
           <a
-            href="https://github.com/Hunterland"
+            href="mailto:alanbarroncas@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <BsGithub className={styles.icone} />
+            <BsEnvelope  className={styles.icone} />
           </a>
 
           <a
