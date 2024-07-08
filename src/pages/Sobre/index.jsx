@@ -12,7 +12,7 @@ import nodejs from "./images/icon-node.svg";
 import docker from "./images/icon-dk.svg";
 import bootstrap from "./images/icon-bs.svg";
 import angular from "./images/icon-angular.svg";
-import react from "./images/icon-react.svg";
+import reactIcon from "./images/icon-react.svg";
 import tailwind from "./images/icon-tw.svg";
 import php from "./images/icon-php.svg";
 import sql from "./images/icon-sql.svg";
@@ -24,7 +24,6 @@ function Sobre() {
         <img src={avatar} alt="Alan Barroncas" className={styles.avatar} />
         <div className={styles.textSection}>
           <h2>Sobre Mim</h2>
-          {/* Linha para divisão do título e parágrafo */}
           <div className={styles.dottedLine}></div>
           <p>
             Com 2 anos de experiência prática como Desenvolvedor Frontend /
@@ -48,8 +47,6 @@ function Sobre() {
           </p>
         </div>
       </div>
-
-      {/* Ýrea de Hardskills e Softskills */}
       <div className={styles.skillsSection}>
         <div className={styles.hardskills}>
           <h3>Hardskills</h3>
@@ -65,7 +62,7 @@ function Sobre() {
             <div className={styles.row}>
               <img className={styles.icon} src={bootstrap} alt="Bootstrap" />
               <img className={styles.icon} src={angular} alt="Angular" />
-              <img className={styles.icon} src={react} alt="React" />
+              <img className={styles.icon} src={reactIcon} alt="React" />
               <img className={styles.icon} src={tailwind} alt="Tailwind" />
               <img className={styles.icon} src={php} alt="PHP" />
               <img className={styles.icon} src={sql} alt="SQL" />

@@ -39,17 +39,27 @@
   margin-bottom: 1rem;
 }
 
+.dottedLine {
+  border-bottom: 1px dotted #000; 
+  width: 100%;
+  margin: 10px 0;
+}
+
+
 .skillsSection {
   display: flex;
-  justify-content:end;
+  justify-content: space-between;
+  align-items: flex-start;
   width: 80%;
   margin-top: 20px;
 }
 
-.hardskills, .softskills {
+.hardskills,
+.softskills {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 45%;
 }
 
 .softskills h3 {
@@ -66,11 +76,11 @@
   margin-bottom: 5px;
 }
 
-
 .icones {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
 }
 
 .row {
@@ -114,6 +124,15 @@ li {
 
   .textSection {
     text-align: center;
+  }
+  .skillsSection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hardskills, .softskills {
+    width: 100%;
+    align-items: center;
   }
 }
 
