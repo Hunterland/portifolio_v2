@@ -48,8 +48,7 @@
 
 .skillsSection {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  text-align: left;
   width: 80%;
   margin-top: 20px;
 }
@@ -114,6 +113,7 @@ li {
     flex-direction: column;
     padding-inline: 20px;
     gap: 1rem;
+    flex-direction: column;
   }
 
   .avatar {
@@ -153,6 +153,7 @@ li {
   .profileSection {
     gap: 0.5rem;
     text-align: center;
+    flex-direction: column;
   }
 
   .avatar {

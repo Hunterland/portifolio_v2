@@ -14,7 +14,7 @@ import bootstrap from "./images/icon-bs.svg";
 import angular from "./images/icon-angular.svg";
 import reactIcon from "./images/icon-react.svg";
 import tailwind from "./images/icon-tw.svg";
-import php from "./images/icon-php.svg";
+import npm from "./images/icon-npm.svg";
 import sql from "./images/icon-sql.svg";
 
 function Sobre() {
@@ -64,7 +64,7 @@ function Sobre() {
               <img className={styles.icon} src={angular} alt="Angular" />
               <img className={styles.icon} src={reactIcon} alt="React" />
               <img className={styles.icon} src={tailwind} alt="Tailwind" />
-              <img className={styles.icon} src={php} alt="PHP" />
+              <img className={styles.icon} src={npm} alt="NPM" />
               <img className={styles.icon} src={sql} alt="SQL" />
             </div>
           </div>
