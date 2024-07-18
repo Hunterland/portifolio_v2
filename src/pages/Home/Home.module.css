@@ -3,11 +3,9 @@
 .home {
   width: 100%;
   min-height: 90vh;
-
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 .home img {
@@ -17,20 +15,6 @@
 .img_home {
   margin-right: -97px;
 }
-
-/* adicionando flutuação */
-/* .img-home.floating {
-    animation: floatAnimation 4s infinite ease-in-out;
-  }
-  
-  @keyframes floatAnimation {
-    0%, 100% {
-      transform: translatey(20px);
-    }
-    50% {
-      transform: translateY(-20px);
-    }
-  } */
 
 .home p {
   font-size: 3rem;
@@ -67,11 +51,20 @@
   background-color: #a3bc3d;
 }
 
-
-/* aula 11 extra 01 responsividade */
+/* Responsividade */
 @media (max-width: 768px) {
   .home {
     flex-direction: column;
+    text-align: center; /* Align text in the center */
+  }
+
+  .img_home {
+    margin-right: 0; /* Reset margin */
+    margin-bottom: 20px; /* Add some spacing between the image and the button */
+  }
+
+  .divBottom {
+    order: 3; /* Ensure the button is the last item */
   }
 }
 
@@ -79,6 +72,7 @@
   .home p {
     font-size: 2rem;
   }
+
   .home img {
     max-width: 100%;
     height: auto;

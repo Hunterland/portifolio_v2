@@ -1,5 +1,6 @@
 import styles from "./Home.module.css";
 import resumePDF from "../../assets/Alan_Barroncas_CV5.pdf";
+import developerImage from "../../../public/Development-h.png"; // Certifique-se de que o caminho está correto
 
 function Home() {
   return (
@@ -11,19 +12,21 @@ function Home() {
           <br />
           Frontend Developer
         </p>
-        <a
-          href={resumePDF}
-          className={`${styles.btn} ${styles.btn_charcoal}`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Download CV👨‍💻
-        </a>
+        <div className={styles.divBottom}>
+          <a
+            href={resumePDF}
+            className={`${styles.btn} ${styles.btn_charcoal}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download CV🧑‍💻
+          </a>
+        </div>
       </div>
-      <figure>
+      <figure className={styles.figure}>
         <img
-          className={`${styles.img_home} ${styles.floating}`}
-          src="/Development-h.png"
+          className={styles.img_home}
+          src={developerImage}
           alt="Vetor"
         />
       </figure>

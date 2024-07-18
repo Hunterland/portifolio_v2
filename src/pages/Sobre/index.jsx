@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./Sobre.module.css";
 import avatar from "./images/avatar_2.png";
 
-// Icons
+// Import de icones
 import figma from "./images/icon-figma.svg";
 import typescript from "./images/icon-ts.svg";
 import js from "./images/icon-js.svg";
@@ -31,12 +31,13 @@ function Sobre() {
             em software.
           </p>
           <p>
-            Minha jornada profissional também inclui uma experiência breve, mas
-            extremamente valiosa, na Área de Suporte Técnico. Essa vivência me
-            ajudou a desenvolver uma capacidade de resolução de problemas e me
-            proporcionou uma compreensão mais profunda dos desafios cotidianos
-            enfrentados pelos usuários. Sou uma pessoal altamente adaptável, que
-            se comunica e trabalha muito bem em equipe.
+            Minha jornada profissional também inclui uma experiência breve,
+            mas extremamente valiosa, na área de Suporte Técnico. Essa
+            vivência me ajudou a desenvolver uma capacidade de resolução de
+            problemas e me proporcionou uma compreensão mais profunda dos
+            desafios cotidianos enfrentados pelos usuários. Sou uma pessoa
+            altamente adaptável, que se comunica e trabalha muito bem em
+            equipe.
           </p>
           <p>
             Estou sempre buscando oportunidades que me permitam crescer tanto
@@ -52,18 +53,18 @@ function Sobre() {
           <h3>Hardskills</h3>
           <div className={styles.icones}>
             <div className={styles.row}>
-              <img className={styles.icon} src={figma} alt="Figma" />
               <img className={styles.icon} src={typescript} alt="Typescript" />
               <img className={styles.icon} src={js} alt="Javascript" />
-              <img className={styles.icon} src={git} alt="Git" />
               <img className={styles.icon} src={nodejs} alt="Node.js" />
-              <img className={styles.icon} src={docker} alt="Docker" />
+              <img className={styles.icon} src={figma} alt="Figma" />
+              <img className={styles.icon} src={git} alt="Git" />
+              <img className={styles.icon} src={angular} alt="Angular" />
             </div>
             <div className={styles.row}>
+            <img className={styles.icon} src={reactIcon} alt="React" />
               <img className={styles.icon} src={bootstrap} alt="Bootstrap" />
-              <img className={styles.icon} src={angular} alt="Angular" />
-              <img className={styles.icon} src={reactIcon} alt="React" />
               <img className={styles.icon} src={tailwind} alt="Tailwind" />
+              <img className={styles.icon} src={docker} alt="Docker" />
               <img className={styles.icon} src={npm} alt="NPM" />
               <img className={styles.icon} src={sql} alt="SQL" />
             </div>
@@ -72,10 +73,9 @@ function Sobre() {
         <div className={styles.softskills}>
           <h3>Softskills</h3>
           <ul>
-            <li>Adaptável</li>
-            <li>Flexível</li>
-            <li>Comunicativo</li>
-            <li>Trabalho em Equipe</li>
+            <li>Adaptabilidade</li>
+            <li>Comunicação</li>
+            <li>Trabalho em equipe</li>
           </ul>
         </div>
       </div>
