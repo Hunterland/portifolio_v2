@@ -1,54 +1,61 @@
 .card {
-  width: 300px;
-  height: 300px;
+  width: 331px;
+  height: 390px; /* Ajustei a altura */
   background-color: var(--primary);
   color: var(--gray);
-  border-radius: 8px;
+  border-radius: 5px;
   box-shadow: 5px 5px 10px #22222270;
-  padding: 20px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 
-.card h3 {
-  color: var(--primary);
+.cardImage {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #22222270;
 }
 
-.card p {
-  color: var( --white);
+.cardContent {
+  text-align: center;
+}
+
+.cardTitle {
+  color: var(--white);
+  margin: 10px 0;
+  text-align: left;
+}
+
+.cardDescription {
+  color: var(--white);
+  text-align: left;
 }
 
 .card_footer {
   width: 100%;
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
-.card_icones {
-  display: flex;
-  gap: 10px;
-  color: var(--olive);
-  font-size: 1.5rem;
-}
-
-.botao {
-  width: 40px;
-  height: 40px;
-  border: 0;
-  border-radius: 8px;
-  background-color: var( --white);
-  color: var(--primary);
-  font-size: 1.5rem;
+.webLink, .repoLink {
   display: flex;
   align-items: center;
-  justify-content: center;
-  cursor: pointer;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 5px;
+  background-color: var(--white);
+  color: var(--primary);
+  font-size: 10px;
+  text-decoration: none;
+  box-shadow: 5px 5px 10px #22222270;
+  transition: all 0.5s;
 }
 
-.botao:hover {
+.webLink:hover, .repoLink:hover {
   background-color: var(--olive);
-  transition: all 0.5s;
+  color: var(--white);
 }

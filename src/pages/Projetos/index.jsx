@@ -6,14 +6,30 @@ function Projetos() {
   const [repositories, setRepositories] = useState([]);
 
   useEffect(() => {
-    const buscarRepositorios = async () => {
+    const fetchImage = async (repoName) => {
+      const response = await fetch(
+        `https://raw.githubusercontent.com/Hunterland/${repoName}/main/screenshot.png`
+      );
+      return response.ok
+        ? `https://raw.githubusercontent.com/Hunterland/${repoName}/main/screenshot.png`
+        : "https://via.placeholder.com/300"; // Link para uma imagem padrão
+    };
+
+    const fetchRepositories = async () => {
       const response = await fetch(
         "https://api.github.com/users/Hunterland/repos"
       );
       const data = await response.json();
-      setRepositories(data);
+      const reposWithImages = await Promise.all(
+        data.map(async (repo) => ({
+          ...repo,
+          image_url: await fetchImage(repo.name),
+        }))
+      );
+      setRepositories(reposWithImages);
     };
-    buscarRepositorios();
+
+    fetchRepositories();
   }, []);
 
   return (
@@ -27,6 +43,7 @@ function Projetos() {
               name={repo.name}
               description={repo.description}
               html_url={repo.html_url}
+              image_url={repo.image_url}
             />
           ))}
         </section>
@@ -36,4 +53,5 @@ function Projetos() {
     </section>
   );
 }
+
 export default Projetos;

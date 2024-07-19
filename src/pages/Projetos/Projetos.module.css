@@ -1,5 +1,7 @@
 .projetos h2 {
   text-align: center;
+  color: var(--primary);
+  margin-bottom: 2rem;
 }
 
 .lista {

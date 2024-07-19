@@ -1,27 +1,35 @@
 import styles from "../Card/Card.module.css";
-import { FaCss3Alt, FaHtml5, FaJs } from "react-icons/fa";
-import { BsArrowRight } from "react-icons/bs";
-import { Link } from "react-router-dom";
+import { FaGlobe, FaGithub } from "react-icons/fa";
 
 // eslint-disable-next-line react/prop-types
-function Card({ name, description, html_url }) {
+function Card({ name, description, html_url, image_url }) {
   return (
     <section className={styles.card}>
-      <h3>{name}</h3>
-      <p>{description}</p>
+      <img src={image_url} alt={name} className={styles.cardImage} />
+      <div className={styles.cardContent}>
+        <h3 className={styles.cardTitle}>{name}</h3>
+        <p className={styles.cardDescription}>{description}</p>
+      </div>
       <div className={styles.card_footer}>
-        <div className={styles.card_icones}>
-          <FaHtml5 />
-          <FaCss3Alt />
-          <FaJs />
-        </div>
-        <Link to={html_url} className={styles.botao}>
-          <BsArrowRight />
-        </Link>
+        <a
+          href={html_url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.webLink}
+        >
+          <FaGlobe /> Link na web
+        </a>
+        <a
+          href={`https://github.com/Hunterland/${name}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.repoLink}
+        >
+          <FaGithub /> Repositório
+        </a>
       </div>
     </section>
   );
 }
 
 export default Card;
-
